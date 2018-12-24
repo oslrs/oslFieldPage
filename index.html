@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>OSL Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial=scale1">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+      <img id="logo" src="https://oslcentral.com/wp-content/uploads/2018/10/OSL.png">
+    </header>
+    
+    <main>
+      <div id="toc">
+        <button class="tocButton selectedButton" ontouchstart="touchStart(event, 'home')" onclick="openTab(event, 'home')">Home</button>
+        <button class="tocButton" ontouchstart="touchStart(event, 'portals')" onclick="openTab(event, 'portals')">Activation Portal</button>
+        <button class="tocButton" ontouchstart="touchStart(event, 'email')" onclick="openTab(event, 'email')">Email</button>
+      </div>
+      
+      <div id="tabs">
+        <div class="tab" id="home">
+          <h1>Home</h1>
+          <p>Great people doing greater things, evrey day</p>
+        </div>
+        <div class="tab" id="portals">
+          <h1>Activation Portals</h1>
+          <p><a href="https://bell.ca">Bell</a></p>
+          <p><a href="rogers.ca">Rogers</a></p>
+        </div>
+        <div class="tab" id="email">
+          <h1>Email</h1>
+          <p>Email <a href="mailto:support@oslrs.com">support@oslrs.com</a></p>
+        </div>
+      </div>
+    
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
