@@ -1,0 +1,92 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 10px;
+  box-shadow: 0 4px 2px -2px gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#logo {
+  margin-left: 20px;
+}
+
+main {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+
+#toc {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 20px;
+}
+
+.tocButton {
+  margin: 5px;
+  padding: 10px;
+  background: white;
+  border: none;
+  box-shadow: 0px 0px 2px 1px gray;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.selectedButton {
+  background: #00b5de;
+  color: white;
+}
+
+#tabs {
+  padding: 0px 10px 10px 10px;
+}
+
+.tab {
+  text-align: center;
+}
+
+#home {
+  display: block;
+}
+
+#portals {
+  display: none;
+}
+
+#email {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    justify-content: center;
+  }
+  #logo {
+    margin: 0;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  #toc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #tabs {
+    padding-top: 30px;
+  }
+}
