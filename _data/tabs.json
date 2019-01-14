@@ -1,0 +1,317 @@
+[{
+  "id": "home",
+  "name": "OSL Central",
+  "description": "Great people doing greater things, every day",
+  "embed": "false",
+  "buttons": [{
+    "link": "https://oslwireless.sharepoint.com/sites/OSLCENTRAL",
+    "image": "assets/images/OSL.png"
+  }]
+},
+
+{
+  "id": "email",
+  "name": "Email",
+  "description": "Click here to access your email:",
+  "embed": "false",
+  "buttons": [{
+    "link": "https://portal.microsoftonline.com/",
+    "image": "assets/images/tools/email.png"
+  }]
+},
+
+{
+  "id": "portals",
+  "name": "Activation Portals",
+  "description": "",
+  "embed": "false",
+  "buttons": [{
+    "name": "Bell",
+    "link": "https://www.infonet.bellmobility.ca/",
+    "image": "assets/images/carriers/Bell.jpg"
+    },{
+    "name": "Virgin",
+    "link": "http://thehub.virginmobile.ca/",
+    "image": "assets/images/carriers/Virgin Mobile.jpg"
+    },{
+    "name": "Lucky Mobile",
+    "link": "https://wac.luckymobile.ca:9000/wac-ia/luckymobile_login.jsp",
+    "image": "assets/images/carriers/Lucky Mobile.jpg"
+    },{
+    "name": "Rogers",
+    "link": "https://ssp.rogers.com/shop/cfa/welcome.jsp",
+    "image": "assets/images/carriers/Rogers.jpg"
+    },{
+    "name": "Fido",      
+    "link": "https://ssp.fido.ca/",
+    "image": "assets/images/carriers/Fido.jpg"
+    },{
+    "name": "Chatr",
+    "link": "http://www.chatrwireless.com/chatrbox",
+    "image": "assets/images/carriers/Chatr.jpg"
+    },{
+    "name": "Telus",
+    "link": "https://secure.telusmobility.com/partners/login.jsp",
+    "image": "assets/images/carriers/Telus.jpg"
+    },{
+    "name": "Koodo",
+    "link": "https://sales.koodomobile.com/",
+    "image": "assets/images/carriers/Koodo.jpg"
+  }]
+},
+
+{
+  "id": "schedulingPayroll",
+  "name": "Scheduling & Payroll",
+  "description": "View your payroll and clock in and clock out using these tools:",
+  "embed": "false",
+  "buttons": [{
+    "name": "myOSL",
+    "link": "https://workforcenow.adp.com/",
+    "image": "assets/images/tools/myOSL.png"
+    },{
+    "name": "ADP",
+    "link": "https://workforceportal.elabor.com/ezLaborManagerNetRedirect/ClientLogin.aspx?lng=en-CA&flgn=1&webclk=T",
+    "image": "assets/images/tools/ADP.png"
+  }]
+},
+
+{
+  "id": "contact",
+  "name": "Who to Contact",
+  "description": "",
+  "embed": "true",
+  "buttons": [{
+    "name": "Key Contacts",
+    "link": "<iframe src='http://oslkeycontacts.app.appery.io' style='width: 800px; height: 550px' scrolling='yes'></iframe>",
+    "image": ""
+  }]
+},
+
+{
+  "id": "training",
+  "name": "Training",
+  "description": "Click here to view your training:",
+  "embed": "false",
+  "buttons": [{
+    "name": "Adobe Captivate Prime",
+    "link": "https://adobeid-na1.services.adobe.com/renga-idprovider/pages/login?callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fadobeid%2FCaptivate1%2FAdobeID%2Fcode%3Fredirect_uri%3Dhttps%253A%252F%252Fcaptivateprime.adobe.com%252Fims%252Fapi%252Fbl%252Fv1%252Faccount%252F19194%252Fuser%252Fdummy%252FimsAuthorize%252FworkflowId%252F3%252FsubDomain%252Fdummy%253Flocale%253Den_US&client_id=Captivate1&scope=AdobeID%2Copenid&denied_callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fdenied%2FCaptivate1%3Fredirect_uri%3Dhttps%253A%252F%252Fcaptivateprime.adobe.com%252Fims%252Fapi%252Fbl%252Fv1%252Faccount%252F19194%252Fuser%252Fdummy%252FimsAuthorize%252FworkflowId%252F3%252FsubDomain%252Fdummy%253Flocale%253Den_US%26response_type%3Dcode&display=web_v2&relay=d7daa813-3d33-4524-bfc5-383687aea65f&locale=en_US&flow_type=code&puser=spitts%40oslrs.com&idp_flow_type=login%20target=",
+    "image": "assets/images/tools/Adobe Captivate.png"
+  }]
+},
+
+{
+  "id": "uniforms",
+  "name": "Uniforms",
+  "description": "",
+  "embed": "true",
+  "buttons": [{
+    "name": "Uniforms",
+    "link": "<iframe src='http://osluniforms.app.appery.io' style='width: 800px; height: 550px' scrolling='yes'></iframe>",
+    "image": ""
+  }]
+},
+
+{
+  "id": "expenses",
+  "name": "Expense Submission",
+  "description": "",
+  "embed": "true",
+  "buttons": [{
+    "name": "Expense Submission",
+    "link": "<iframe src='http://oslexpenses.app.appery.io' style='width: 800px; height: 550px' scrolling='yes'></iframe>",
+    "image": ""
+  }]
+},
+
+{
+  "id": "safeCodes",
+  "name": "Safe Codes",
+  "description": "",
+  "embed": "true",
+  "buttons": [{
+    "name": "Safe Submissions",
+    "link": "<iframe src='http://os1c0mb91.app.appery.io/' style='width: 800px; height: 550px' scrolling='yes'></iframe>",
+    "image": ""
+  }]
+},
+
+{
+  "id": "supply",
+  "name": "Supply Orders",
+  "description": "Click here to order supplies:",
+  "embed": "false",
+  "buttons": [{
+    "name": "Grand & Toy",
+    "link": "https://www.grandandtoy.com/en/sites/core/business-solutions-small-medium.aspx?gclid=CJitmcv-79QCFYuLaQodcj8GXg/",
+    "image": "assets/images/tools/Grand & Toy.jpg"
+  }]
+},
+
+{
+  "id": "haloOrder",
+  "name": "Halo Order",
+  "description": "",
+  "embed": "true",
+  "buttons": [{
+    "name": "Halo Order Form",
+    "link": "<iframe src='http://oslhaloorderform.app.appery.io/' style='width: 800px; height: 550px' scrolling='yes'></iframe>",
+    "image": ""
+  }]
+},
+
+{
+  "id": "shipping",
+  "name": "Shipping",
+  "description": "Choose your shipping provider:",
+  "embed": "false",
+  "buttons": [{
+    "name": "FedEx",
+    "link": "http://www.fedex.ca/",
+    "image": "assets/images/tools/FedEx.png"
+    },{
+    "name": "Purolator",
+    "link": "http://www.purolator.com/",
+    "image": "assets/images/tools/Purolator.png"
+    },{
+    "name": "UPS",
+    "link": "http://www.ups.com/canada/",
+    "image": "assets/images/tools/UPS.png"
+    },{
+    "name": "UPS CampusShip",
+    "link": "https://www.campusship.ups.com/",
+    "image": "assets/images/tools/CampusShip.png"
+  }]
+},
+
+{
+  "id": "carrierWebsites",
+  "name": "Carrier Websites",
+  "description": "Get official information from carriers:",
+  "embed": "false",
+  "buttons": [{
+    "name": "Bell Website",
+    "link": "http://www.bell.ca/mobility",
+    "image": "assets/images/carriers/Bell.jpg"
+    },{
+    "name": "Virgin Mobile Website",
+    "link": "http://virginmobile.ca/",
+    "image": "assets/images/carriers/Virgin Mobile.jpg"
+    },{
+    "name": "Lucky Mobile Website",
+    "link": "https://www.luckymobile.ca/",
+    "image": "assets/images/carriers/Lucky Mobile.jpg"
+    },{
+    "name": "Rogers Website",
+    "link": "http://rogers.com/web/rogers.portal",
+    "image": "assets/images/carriers/Rogers.jpg"
+    },{
+    "name": "Rogers Sales Assist Website",
+    "link": "http://rogerssalesassist.com/",
+    "image": "assets/images/carriers/Rogers_sales assist.jpg"
+    },{
+    "name": "Fido Website",
+    "link": "https://fido.ca/",
+    "image": "assets/images/carriers/Fido.jpg"
+    },{
+    "name": "Chatr Website",
+    "link": "http://chatrwireless.com/",
+    "image": "assets/images/carriers/Chatr.jpg"
+    },{
+    "name": "Telus Website",
+    "link": "http://telus.com/",
+    "image": "assets/images/carriers/Telus.jpg"
+    },{
+    "name": "Koodo Website",
+    "link": "http://koodomobile.com/en/on/index.shtml",
+    "image": "assets/images/carriers/Koodo.jpg"
+  }]
+},
+
+{
+  "id": "carrierRewards",
+  "name": "Carrier Rewards",
+  "description": "",
+  "embed": "false",
+  "buttons": [{
+    "name": "Bell Blue Chips",
+    "link": "https://www.blue-chips.ca/",
+    "image": "assets/images/carriers/Bell_blue chips.png"
+    },{
+    "name": "Virgin Mobile Loot",
+    "link": "https://www.vmloot.ca/",
+    "image": "assets/images/carriers/Virgin Mobile_loot.png"
+    },{
+    "name": "Telus One",
+    "link": "https://telusone.intelispendrewards.com/",
+    "image": "assets/images/carriers/Telus_one.png"
+    },{
+    "name": "Koodo Kash",
+    "link": "https://koodokashrewards.intelispendrewards.com/",
+    "image": "assets/images/carriers/Koodo_kash.png"
+  }]
+},
+
+{
+  "id": "competitors",
+  "name": "Competitor Websites",
+  "description": "",
+  "embed": "false",
+  "buttons": [{
+    "name": "Best Buy Mobile",
+    "link": "http://www.bestbuy.ca/",
+    "image": "assets/images/competitors/Best Buy Mobile.jpg"
+    },{
+    "name": "Wireless Wave",
+    "link": "http://www.wirelesswave.ca/",
+    "image": "assets/images/competitors/Wireless Wave.png"
+    },{
+    "name": "The Mobile Shop",
+    "link": "http://www.themobileshop.ca/",
+    "image": "assets/images/competitors/Mobile Shop.png"
+    },{
+    "name": "Tbooth Wireless",
+    "link": "http://www.tboothwireless.ca/",
+    "image": "assets/images/competitors/Tbooth.jpg"
+    },{
+    "name": "Mobilicity",
+    "link": "http://mobilicity.ca/",
+    "image": "assets/images/competitors/Mobilicity.png"
+    },{
+    "name": "WOW! mobile boutique",
+    "link": "http://www.wowmobile.ca/",
+    "image": "assets/images/competitors/Wow.png"
+    },{
+    "name": "The Source",
+    "link": "http://www.thesource.ca/",
+    "image": "assets/images/competitors/The Source.png"
+    }]
+},
+
+{
+  "id": "forums",
+  "name": "Wireless Forums",
+  "description": "Get the latest wireless scoop:",
+  "embed": "false",
+  "buttons": [{
+    "name": "Mobile Syrup",
+    "link": "http://mobilesyrup.com/",
+    "image": "assets/images/tools/Mobile Syrup.png"
+    },{
+    "name": "Howard Forums",
+    "link": "http://www.howardforums.com/",
+    "image": "assets/images/tools/Howard Forums.png"
+  }]
+},
+
+{
+  "id": "walmart",
+  "name": "Walmart",
+  "description": "",
+  "embed": "false",
+  "buttons": [{
+    "name": "Walmart",
+    "link": "http://www.walmart.ca/",
+    "image": "assets/images/Walmart.png"
+  }]
+}]

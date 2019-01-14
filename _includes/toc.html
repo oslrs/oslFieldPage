@@ -1,0 +1,7 @@
+{% for tab in site.data.tabs %}
+{% if tab.id == "home" %}
+  <button class="tocButton selectedButton" ontouchstart="touchStart(event, '{{ tab.id }}')" onclick="openTab(event, '{{ tab.id }}')">{{ tab.name }}</button>
+{% else %}
+  <button class="tocButton" ontouchstart="touchStart(event, '{{ tab.id }}')" onclick="openTab(event, '{{ tab.id }}')">{{ tab.name }}</button>
+{% endif %}
+{% endfor %}

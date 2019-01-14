@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 
 <html>
@@ -14,84 +16,14 @@
       <img id="logo" src="assets/images/OSL.png">
     </header>
     
-    <main>
+    <main>     
       <div id="toc">
-        <button class="tocButton selectedButton" ontouchstart="touchStart(event, 'home')" onclick="openTab(event, 'home')">Home</button>
-        <button class="tocButton" ontouchstart="touchStart(event, 'portals')" onclick="openTab(event, 'portals')">Activation Portal</button>
-        <button class="tocButton" ontouchstart="touchStart(event, 'email')" onclick="openTab(event, 'email')">Email</button>
+        {% include toc.html %}
       </div>
-      
+
       <div id="tabs">
-
-        <div class="tab" id="home">
-          <h1 class="tabTitle">Home</h1>
-          <p><em>Great people doing greater things, every day</em></p>
-          <div class="tabButtons">
-            <div class="tabButton">
-                <a class="tabButtonLink" href="https://oslwireless.sharepoint.com/sites/OSLCENTRAL">
-                  <img class="tabButtonImage" style="width: 189px; height: 86px;" src="assets/images/OSL.png">
-                </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="tab" id="portals">
-          <h1 class="tabTitle">Activation Portals</h1>
-          <div class="tabButtons">
-            <div class="tabButton">
-                <a class="tabButtonLink" href="https://www.infonet.bellmobility.ca/">
-                  <img class="tabButtonImage" src="assets/images/Bell.jpg">
-                </a>
-            </div>
-            <div class="tabButton">
-                <a class="tabButtonLink" href="https://ssp.rogers.com/shop/cfa/welcome.jsp">
-                  <img class="tabButtonImage" src="assets/images/Rogers.jpg">
-                </a>
-            </div>
-            <div class="tabButton">
-                <a class="tabButtonLink" href="https://secure.telusmobility.com/partners/login.jsp">
-                  <img class="tabButtonImage" src="assets/images/Telus.jpg">
-                </a>
-            </div>
-            <div class="tabButton">
-                <a class="tabButtonLink" href="http://thehub.virginmobile.ca/">
-                  <img class="tabButtonImage" src="assets/images/Virgin Mobile.jpg">
-                </a>
-            </div>
-            <div class="tabButton">
-                <a class="tabButtonLink" href="https://ssp.fido.ca/">
-                  <img class="tabButtonImage" src="assets/images/Fido.jpg">
-                </a>
-            </div>
-            <div class="tabButton">
-                <a class="tabButtonLink" href="https://sales.koodomobile.com/">
-                  <img class="tabButtonImage" src="assets/images/Koodo.jpg">
-                </a>
-            </div>
-            <div class="tabButton">
-                <a class="tabButtonLink" href="https://wac.luckymobile.ca:9000/wac-ia/luckymobile_login.jsp">
-                  <img class="tabButtonImage" src="assets/images/Lucky Mobile.jpg">
-                </a>
-            </div>
-            <div class="tabButton">
-                <a class="tabButtonLink" href="http://www.chatrwireless.com/chatrbox">
-                  <img class="tabButtonImage" src="assets/images/Chatr.jpg">
-                </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="tab" id="email">
-            <h1 class="tabTitle">Email</h1>
-            <p>Email <a href="mailto:support@oslrs.com">support@oslrs.com</a></p>
-            <div class="tabButtons">
-              <div class="tabButton">
-                  <a class="tabButtonLink" href="https://portal.microsoftonline.com/">
-                    <img class="tabButtonImage" src="assets/images/email.png">
-                  </a>
-              </div>
-            </div>
-          </div>
+        {% include tabs.html %}
+      </div>
     
     </main>
     <script src="assets/js/script.js" type="text/javascript"></script>

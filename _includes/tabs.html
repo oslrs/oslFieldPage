@@ -1,0 +1,23 @@
+{% for tab in site.data.tabs %}
+{% if tab.id == "home" %}
+<div class="tab" id="{{ tab.id }}">
+{% else %}
+<div class="tab" id="{{ tab.id }}" style="display: none;">
+{% endif %}
+  <h1 class="tabTitle">{{ tab.name }}</h1>
+  <p><em>{{ tab.description }}</em></p>
+  <div class="tabButtons">
+    {% if tab.embed == "true" %}
+      {{ tab.buttons[0].link }}
+    {% else %}
+      {% for tabButton in tab.buttons %}
+      <div class="tabButton">
+          <a class="tabButtonLink" href="{{ tabButton.link }}" target="_blank">
+            <img class="tabButtonImage" src="{{ tabButton.image }}">
+          </a>
+      </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
