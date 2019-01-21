@@ -22,7 +22,9 @@ header {
 
 main {
   padding: 30px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 5fr;
   grid-template-columns: 1fr 5fr;
 }
 
