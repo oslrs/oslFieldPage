@@ -253,6 +253,50 @@
 },
 
 {
+  "id": "manufacturers",
+  "name": "Manufacturer Websites",
+  "description": "",
+  "embed": "false",
+  "buttons": [{
+    "name": "Samsung",
+    "link": "http://www.samsung.com/ca/consumer/mobile/mobile-phones",
+    "image": "assets/images/manufacturers/Samsung.jpg"
+    },{
+    "name": "Apple",
+    "link": "http://www.apple.com/ca/iphone/",
+    "image": "assets/images/manufacturers/Apple.png"
+    },{
+    "name": "HTC",
+    "link": "http://www.htc.com/",
+    "image": "assets/images/manufacturers/HTC.jpg"
+    },{
+    "name": "LG",
+    "link": "http://www.lg.com/ca_en/mobile-phones/all-phones/all-phones.jsp",
+    "image": "assets/images/manufacturers/LG.jpg"
+    },{
+    "name": "Huawei",
+    "link": "http://consumer.huawei.com/ca/index.htm?utm_campaign=p10canada&utm_medium=search&utm_source=rogersmedia&utm_content=adcontet&utm_term=&source=rogersmedia&gclid=CLLLsu_879QCFRG2wAodaMAI_g",
+    "image": "assets/images/manufacturers/Huawei.jpg"
+    },{
+    "name": "Motorola",
+    "link": "http://www.motorola.com/Consumers/CA-EN/Home",
+    "image": "assets/images/manufacturers/Motorola.jpg"
+    },{
+    "name": "Nokia",
+    "link": "http://www.nokia.com/ca-en/",
+    "image": "assets/images/manufacturers/Nokia.jpg"
+    },{
+    "name": "Sony",
+    "link": "http://www.sonymobile.com/global-en/",
+    "image": "assets/images/manufacturers/Sony.jpg"
+    },{
+    "name": "Alcatel",
+    "link": "http://www.alcatel.com/",
+    "image": "assets/images/manufacturers/Alcatel.jpg"
+    }]
+},
+
+{
   "id": "competitors",
   "name": "Competitor Websites",
   "description": "",
@@ -312,6 +356,6 @@
   "buttons": [{
     "name": "Walmart",
     "link": "http://www.walmart.ca/",
-    "image": "assets/images/Walmart.png"
+    "image": "assets/images/Walmart_site.png"
   }]
 }]

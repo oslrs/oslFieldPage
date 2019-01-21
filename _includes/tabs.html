@@ -4,7 +4,7 @@
 {% else %}
 <div class="tab" id="{{ tab.id }}" style="display: none;">
 {% endif %}
-  <h1 class="tabTitle">{{ tab.name }}</h1>
+  <h1 class="tabTitle"><span style="color: #FFC220;">//</span> {{ tab.name }}</h1>
   <p><em>{{ tab.description }}</em></p>
   <div class="tabButtons">
     {% if tab.embed == "true" %}

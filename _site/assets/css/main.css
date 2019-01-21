@@ -16,6 +16,7 @@ header {
 }
 
 #logo {
+  height: 86px;
   margin-left: 20px;
 }
 
@@ -44,7 +45,7 @@ main {
 }
 
 .selectedButton {
-  background: #00b5de;
+  background: #007DC6;
   color: white;
 }
 
@@ -60,7 +61,7 @@ main {
 
 .tabTitle {
   text-transform: uppercase;
-  color: #00b5de;
+  color: #007DC6;
 }
 
 .tabButtons {
@@ -94,10 +95,6 @@ main {
 
 .tabButtonImage {
   width: 158px;
-}
-
-.tabButtonImage:hover {
-  width: 168px;
 }
 
 @media screen and (max-width: 800px) {
